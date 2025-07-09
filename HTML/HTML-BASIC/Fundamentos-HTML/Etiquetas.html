@@ -1,0 +1,326 @@
+<!---
+
+    Fundamentos HTML
+
+- Estructura básica de un documento HTML
+- Etiquetas
+- Etiquetas de apertura y cierre
+- Etiquetas de apertura auto-cierre
+- Etiquetas de apertura y cierre con atributos
+
+-->
+
+<!-- Documento de tipo HTML5 -->
+<!DOCTYPE html>
+
+<!-- Lenguaje del documento -->
+<html lang="en">
+
+<!-- Cabecera del documento -->
+<head>
+
+    <!-- Caracteres -->
+    <meta charset="UTF-8">
+
+    <!-- Tamaño de la ventana -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Enlace a un archivo CSS u otro recurso -->
+    <link rel="" href="">
+
+    <!-- Titulo del documento -->
+    <title>Document</title>
+</head>
+
+<!-- Cuerpo del documento -->
+<body>
+    
+    <!-- Header -->
+    <header>
+    
+    <!-- Navegacion -->
+    <nav>
+        <ul>
+            <li><a href="#">Link 1</a></li>
+            <li><a href="#">Link 2</a></li>
+            <li><a href="#">Link 3</a></li>
+        </ul>
+    </nav>
+    
+    </header>
+    
+    <!-- Linea horizontal -->
+    <hr>
+    
+    <!-- Encabezados 1-6 -->
+    <h1>Encabezado 1</h1>
+    <h2>Encabezado 2</h2>
+    <h3>Encabezado 3</h3>
+    <h4>Encabezado 4</h4>
+    <h5>Encabezado 5</h5>
+    <h6>Encabezado 6</h6>
+    <hr>
+    <!-- Parrafo con salto de linea (br) -->
+     <!-- Strong Es un texto en negrita -->
+     <p>Estoy aprendiendo HTML <br> <strong>  Con Santiago </strong></p>
+     <!-- Enlace -->
+      <hr>
+      <a href="">Esto es un enlace</a> 
+     
+      <br>
+      
+     <!-- Negrita -->
+     <strong>Esto es un texto en negrita</strong>
+
+    <br>
+
+     <!-- Italic -->
+     <em>Esto es un texto en italica</em>
+
+     <br>
+
+     <!-- Small -->
+     <small>Esto es un texto pequeño</small>
+
+     <br>
+     
+     <!-- cite -->
+     <cite>Esto es un texto de citas</cite>
+
+     <br>
+
+     <!-- sub -->
+     <sub>Sub</sub>
+
+     <br>
+
+     <!-- sup -->
+     <sup>Sup</sup>
+
+     <br>
+
+     <!-- mark -->
+     <mark>Mark</mark>
+
+     <br>
+     
+     <!-- span -->
+     <span>Span</span>
+     
+    <br>
+
+     <!-- strike -->
+     <s>Texto tachado</s>
+     
+    <br>
+
+    <!-- u -->
+    <u>Texto subrayado</u>
+    
+    <br>
+    
+    <!-- b -->
+    <b>Texto en negrita</b>    
+
+    <br>
+    
+    <!-- var -->
+    <var>Variable</var>
+
+    <br>
+
+    <!-- samp -->
+    <samp>Samp</samp>
+    
+    <br>
+    
+    <!-- kbd -->
+    <kbd>Kbd</kbd>
+    
+    <bdo dir="rtl">Bdo</bdo>
+    
+    <br>
+    <bdi>Bdi</bdi>
+    
+    <br>
+
+    <!-- ins -->
+    <ins>Ins</ins>
+    
+    <br>
+    
+    <!-- del -->
+    <del>Del</del>
+    
+    <br>
+    
+    <!-- time -->
+    <time datetime="2025-07-09">2025-07-09</time>
+    
+    <br>
+
+    <!-- code -->
+    <code>Code</code>
+    
+    <br>
+    
+    <!-- pre -->
+    <pre>Pre</pre>
+    
+    <br>
+    
+    <!-- Imagen -->
+     <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_120x44dp.png" alt="Google">
+     
+     <!-- Iframe <iframe src="" frameborder=""></iframe> -->
+    
+     <!-- Embed <embed src="" type=""> -->
+     
+     <!-- Object <object data="" type=""></object> -->
+
+    <!-- Video <video src=""></video> -->
+
+    <!-- Audio <audio src=""></audio> -->
+
+    <!-- Source <source src="" type=""> -->
+
+    <!-- SVG <svg></svg> -->
+
+     <hr>
+     <!-- Lista ordenada -->
+     <ol>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+     </ol>
+     <!-- Lista no ordenada -->
+      <hr>
+     <ul>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+     </ul>
+
+     <hr>
+     <!-- Tabla -->
+     <table border="1" cellpadding="10" cellspacing="0">
+        
+        <!-- CapTION -->
+        <caption>Tabla</caption>
+
+        <!-- Colgroup -->
+        <colgroup>
+            
+            <!-- Col se les da estilos a las columnas -->
+            <col span="2" style="background-color: red">
+            <col style="background-color: yellow">
+        </colgroup>
+        
+        <!-- Encabezado de la tabla -->
+        <thead>
+        
+            <!-- Fila de la tabla -->
+            <tr>
+        
+                <!-- Celda de la tabla -->
+                <th>Item 1</th>
+                <th>Item 2</th>
+                <th>Item 3</th>
+            </tr>
+            
+            <!-- Tfoot -->
+            <tfoot>
+                <tr>
+                    <td>Item 10</td>
+                    <td>Item 11</td>
+                    <td>Item 12</td>
+                </tr>
+            </tfoot>
+        </thead>
+        
+        <!-- Cuerpo de la tabla -->
+        <tbody>
+            <tr>
+                <td>Item 4</td>
+                <td>Item 5</td>
+                <td>Item 6</td>
+            </tr>
+            <tr>
+                <td>Item 7</td>
+                <td>Item 8</td>
+                <td>Item 9</td>
+            </tr>
+        </tbody>
+     </table>
+     <hr>
+     
+     <!-- Boton -->
+     <button>Boton</button>
+     <hr>
+     
+     <!-- Dialogo -->
+     <dialog>
+        <p>Dialogo</p>
+     </dialog>
+
+     <hr>
+
+     <!-- Barra lateral -->
+     <aside>
+        <p>"Barra lateral"</p>
+        
+        <!-- Article -->
+        <article>Article</article>
+     </aside>
+     <hr>
+
+    <!-- Main -->
+     <main>
+
+        <!-- Seccion -->
+        <section>
+
+            <!-- Titulo de la seccion -->
+            <h2>Titulo de la seccion</h2>
+
+            <!-- Preformateado -->
+            <pre>texto Preformateado</pre>
+            
+            <!-- Bloque de citas -->
+            <blockquote>Bloque De Citas</blockquote>
+
+            <!-- Lista de definiciones -->
+            <dl>
+                <dt>Termino</dt>
+                <dd>Definicion</dd>
+            </dl>
+
+            <hr>
+
+            <!-- Figura -->
+            <figure>
+                <img src="" alt="">
+                <figcaption>Figura</figcaption>
+            </figure>
+
+            <!-- Division -->
+             <hr>
+            <div>
+                <h3>Titulo de la division</h3>
+                <p>Parrafo</p>
+                <p>Parrafo</p>
+                <p>Parrafo</p>
+                <data value="2025-07-09">2025-07-09</data>
+            </div>
+
+        </section>
+     </main>
+     <hr>
+     
+     <!-- Pie de pagina -->
+     <footer>
+        <p>Footer</p>
+        <address>Address</address>
+     </footer>
+    </body>
+</html>
